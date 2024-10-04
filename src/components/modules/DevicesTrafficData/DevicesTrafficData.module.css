@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--font-x-small);
+  font-family: var(--font-verdana);
+  font-weight: bold;
+  color: var(--color-gray-text);
+  margin-top: var(--spacing-2);
+  border-bottom: 0.5px solid lightgray;
+}
+
+.tableContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  width: 150px;
+  height: 30px;
+}

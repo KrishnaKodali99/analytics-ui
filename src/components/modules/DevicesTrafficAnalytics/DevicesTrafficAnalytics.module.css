@@ -1,0 +1,26 @@
+.container {
+  width: 72%;
+  padding: var(--spacing-1);
+}
+
+.tableHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--font-x-small);
+  font-family: var(--font-verdana);
+  font-weight: bold;
+  padding: var(--spacing-half) var(--spacing-1);
+  border-radius: var(--spacing-1);
+  color: var(--color-white);
+  background-color: var(--color-box-background);
+  margin-bottom: -8px;
+}
+
+.tableHeading {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  width: 150px;
+}

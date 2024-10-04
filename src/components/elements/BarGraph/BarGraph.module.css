@@ -1,0 +1,20 @@
+.container {
+  margin-bottom: var(--spacing-5);
+}
+
+.axis {
+  stroke: var(--bar-graph-axis-color);
+  stroke-width: 2;
+}
+
+.markers {
+ stroke: var(--bar-graph-markers-color);
+}
+
+.text {
+  font-size: 12px;
+}
+
+.lineData {
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--modal-blur-background);
+}
+
+.modalContainer {
+  margin: auto;
+  min-height: 40%;
+  width: 80%;
+  padding: 2%;
+  border-radius: var(--spacing-1);
+  box-shadow: var(--modal-box-shadow);
+  background: var(--color-white);
+}
+
+.closeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  margin-bottom: var(--spacing-5);
+}
+
+.closeIcon {
+  cursor: pointer;
+}

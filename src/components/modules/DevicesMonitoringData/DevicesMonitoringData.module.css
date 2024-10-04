@@ -1,0 +1,32 @@
+.container {
+  width: 50%;
+  padding: var(--spacing-1);
+}
+
+.dataContainer {
+  margin-bottom: var(--spacing-2);
+}
+
+.monitorDurationHeading {
+  font-weight: bold;
+}
+
+.monitorDurationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.monitoringContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: var(--spacing-2);
+}
+
+.durationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

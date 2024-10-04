@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  font: var(--sidenavbar-font);
+  height: var(--sidenavbar-spacing);
+  padding-left: var(--spacing-2);
+  border-top: var(--sidenavbar-border-top);
+  border-bottom: var(--sidenavbar-border-bottom);
+}
+
+.container:hover {
+  cursor: pointer;
+  background-color: var(--sidenavbar-background-color);
+}
+
+.selected {
+  background-color: var(--sidenavbar-background-color);
+}
+
+.background {
+  background-color: var(--sidenavbar-background-color); 
+}

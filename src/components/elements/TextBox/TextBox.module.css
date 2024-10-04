@@ -1,0 +1,37 @@
+.container {
+  width: 200px;
+  height: 54px;
+  padding: var(--spacing-1);
+  border-radius: var(--spacing-1);
+  color: var(--color-white);
+  background-color: var(--color-box-background);
+}
+
+.heading {
+  font-size: var(--font-small);
+  font-weight: bold;
+  margin-bottom: var(--spacing-1);
+}
+
+.lineBreak {
+  width: 70%;
+  height: 1%;
+  color: var(--color-white);
+  background-color: var(--color-white);
+  margin-bottom: -4px;
+  border: none;
+}
+
+.text {
+  margin-top: var(--spacing-2);
+  font-weight: bold;
+}
+
+.regular {
+  font-size: var(--font-medium);
+}
+
+.large {
+  font-size: var(--font-large);
+  margin-top: var(--spacing-1);
+}

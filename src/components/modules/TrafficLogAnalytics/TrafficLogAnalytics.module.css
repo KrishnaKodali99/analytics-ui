@@ -1,0 +1,34 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+  margin-top: var(--spacing-3);
+	margin-bottom: var(--spacing-2);
+}
+
+.heading {
+  margin-bottom: var(--spacing-2);
+	font-weight: bold;
+	font-size: var(--font-x-medium);
+	font-family: var(--font-apple-system);
+}
+
+.trafficLogAnalytics{
+	width: 70%;
+	padding: var(--spacing-1);
+	border: var(--border-1);
+	border-radius: var(--spacing-1);
+	margin-bottom: var(--spacing-5);
+}
+
+.systemStats {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.marginBottom {
+	margin-bottom: var(--spacing-5);
+}

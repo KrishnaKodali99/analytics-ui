@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6%;
+}
+
+.containerAttributes {
+    color: var(--color-white);
+    background-color: var(--header-background-color);
+    font-size: var(--header-font-size);
+}

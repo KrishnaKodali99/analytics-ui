@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: var(--spacing-3);
+	border: var(--border-1);
+	border-radius: var(--spacing-1);
+}
+
+.flexWrap {
+	flex: 1 1 25%;
+	margin-bottom: var(--spacing-5);
+}

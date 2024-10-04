@@ -1,0 +1,23 @@
+.container {
+  margin-top: var(--spacing-3);
+}
+
+.heading {
+	font-weight: bold;
+	font-size: var(--font-x-medium);
+	font-family: var(--font-apple-system);
+}
+
+.graphContainer {
+  border: var(--border-1);
+	border-radius: var(--spacing-1);
+  margin-top: var(--spacing-2);
+  margin-bottom: 5%;
+}
+
+.statisticsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: var(--spacing-2);
+}

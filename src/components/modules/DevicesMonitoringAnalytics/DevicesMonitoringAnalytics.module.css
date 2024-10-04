@@ -1,0 +1,21 @@
+.container {
+  user-select: none;
+  margin-bottom: var(--spacing-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deviceDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: var(--spacing-half) var(--spacing-1);
+  border-radius: var(--spacing-1);
+  border: var(--device-list-item-border);
+}
+
+.container:hover {
+  cursor: pointer;
+}

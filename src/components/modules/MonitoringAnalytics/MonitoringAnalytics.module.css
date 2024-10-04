@@ -1,0 +1,13 @@
+.container {
+  width: 95%;
+	max-height: 100%;
+	margin-top: var(--spacing-5);
+	overflow-y: visible;
+}
+
+.heading {
+  font-weight: bold;
+	font-size: var(--font-x-medium);
+	font-family: var(--font-apple-system);
+  margin-bottom: var(--spacing-3);
+}
